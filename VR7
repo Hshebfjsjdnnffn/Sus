@@ -1,0 +1,511 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_21 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local goofyahhgui = Instance.new("ImageLabel")
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScrollingFrame.Parent = ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+ScrollingFrame.Position = UDim2.new(0.200751588, 0, 0.149456516, 0)
+ScrollingFrame.Size = UDim2.new(0, 638, 0, 460)
+ScrollingFrame.Visible = false
+ScrollingFrame.CanvasPosition = Vector2.new(0, 300)
+
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextLabel.Position = UDim2.new(0.00977140199, 0, 0.0263247211, 0)
+TextLabel.Size = UDim2.new(0, 153, 0, 50)
+TextLabel.Font = Enum.Font.LuckiestGuy
+TextLabel.Text = "VR7 HUB"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 23.000
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextLabel_2.Position = UDim2.new(0.0105609596, 0, 0.180926353, 0)
+TextLabel_2.Size = UDim2.new(0, 166, 0, 32)
+TextLabel_2.Font = Enum.Font.LuckiestGuy
+TextLabel_2.Text = "VR7 SCRIPS"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 15.000
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_3.Position = UDim2.new(0.352511168, 0, 0.0414002426, 0)
+TextButton_3.Size = UDim2.new(0, 113, 0, 50)
+TextButton_3.Font = Enum.Font.Bangers
+TextButton_3.Text = "سكربت طيران"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+TextButton_3.MouseButton1Click:Connect(function()
+
+--b loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+
+end) 
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton.Position = UDim2.new(0.679943562, 0, 0.0417399332, 0)
+TextButton.Size = UDim2.new(0, 113, 0, 50)
+TextButton.Font = Enum.Font.Bangers
+TextButton.Text = "سكربت اسرق الوقت"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton.MouseButton1Click:Connect(function()
+
+--b loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdullah16661/Other/main/Reach.lua"))()
+
+end)
+
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_11.Position = UDim2.new(0.35308966, 0, 0.106857479, 0)
+TextButton_11.Size = UDim2.new(0, 113, 0, 50)
+TextButton_11.Font = Enum.Font.Bangers
+TextButton_11.Text = " سكربت ادمن "
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 14.000
+
+TextButton_11.MouseButton1Click:Connect(function()
+
+--b 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_2.Position = UDim2.new(0.680136979, 0, 0.106787495, 0)
+TextButton_2.Size = UDim2.new(0, 113, 0, 50)
+TextButton_2.Font = Enum.Font.Bangers
+TextButton_2.Text = "سكربت كيبورد"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+TextButton_2.MouseButton1Click:Connect(function()
+
+--b 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_4.Position = UDim2.new(0.352294117, 0, 0.180157065, 0)
+TextButton_4.Size = UDim2.new(0, 113, 0, 50)
+TextButton_4.Font = Enum.Font.Bangers
+TextButton_4.Text = "سكربت ماب البيوت عربي"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+TextButton_4.MouseButton1Click:Connect(function()
+
+--b loadstring(game:HttpGet("https://raw.githubusercontent.com/Majeedl12/ScriptsByM7/main/BROOKHAVEN_ARABIC.VR7.Lua"))()
+
+end)
+
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_5.Position = UDim2.new(0.679148018, 0, 0.179887325, 0)
+TextButton_5.Size = UDim2.new(0, 113, 0, 50)
+TextButton_5.Font = Enum.Font.Bangers
+TextButton_5.Text = "سكربت اسرق الوقت عربي"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+TextButton_5.MouseButton1Click:Connect(function()
+
+--b loadstring(game:HttpGet("https://raw.githubusercontent.com/Majeedl12/ScriptsByM7/main/VR7ReachOther16661.Lua"))()
+
+end) 
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_7.Position = UDim2.new(0.353861451, 0, 0.245274544, 0)
+TextButton_7.Size = UDim2.new(0, 113, 0, 50)
+TextButton_7.Font = Enum.Font.Bangers
+TextButton_7.Text = "سكربت تعليق السيرفر"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+TextButton_7.MouseButton1Click:Connect(function()
+
+--b 
+
+‏loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Fe%20lag%20chat%20Gui"))()
+
+end)
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_6.Position = UDim2.new(0.679148018, 0, 0.244425386, 0)
+TextButton_6.Size = UDim2.new(0, 113, 0, 50)
+TextButton_6.Font = Enum.Font.Bangers
+TextButton_6.Text = "تحديث القادم"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+TextButton_6.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_8.Position = UDim2.new(0.353861451, 0, 0.315756857, 0)
+TextButton_8.Size = UDim2.new(0, 113, 0, 50)
+TextButton_8.Font = Enum.Font.Bangers
+TextButton_8.Text = "تحديث القادم"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+
+TextButton_8.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_9.Position = UDim2.new(0.678569555, 0, 0.315756857, 0)
+TextButton_9.Size = UDim2.new(0, 113, 0, 50)
+TextButton_9.Font = Enum.Font.Bangers
+TextButton_9.Text = "تحديث القادم"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 14.000
+
+TextButton_9.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+-- b تكملته من 11 الي  عشرين
+
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextLabel_3.Position = UDim2.new(0.442373246, 0, -1.65856395e-08, 0)
+TextLabel_3.Size = UDim2.new(0, 166, 0, 32)
+TextLabel_3.Font = Enum.Font.LuckiestGuy
+TextLabel_3.Text = "تحديث القادم"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 23.000
+
+--b الاخيارات
+
+TextButton_12.Parent = ScrollingFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_12.Position = UDim2.new(0.352511168, 0, 0.467691034, 0)
+TextButton_12.Size = UDim2.new(0, 113, 0, 50)
+TextButton_12.Font = Enum.Font.Bangers
+TextButton_12.Text = "تحديث القادم"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 14.000
+
+TextButton_12.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_13.Parent = ScrollingFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_13.Position = UDim2.new(0.680097342, 0, 0.467691034, 0)
+TextButton_13.Size = UDim2.new(0, 113, 0, 50)
+TextButton_13.Font = Enum.Font.Bangers
+TextButton_13.Text = "تحديث القادم"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextSize = 14.000
+
+TextButton_13.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_15.Parent = ScrollingFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_15.Position = UDim2.new(0.352511138, 0, 0.564498127, 0)
+TextButton_15.Size = UDim2.new(0, 113, 0, 50)
+TextButton_15.Font = Enum.Font.Bangers
+TextButton_15.Text = "تحديث القادم"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextSize = 14.000
+
+TextButton_15.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_14.Parent = ScrollingFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_14.Position = UDim2.new(0.680097342, 0, 0.557704628, 0)
+TextButton_14.Size = UDim2.new(0, 113, 0, 50)
+TextButton_14.Font = Enum.Font.Bangers
+TextButton_14.Text = "تحديث القادم"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextSize = 14.000
+
+TextButton_14.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_16.Parent = ScrollingFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_16.Position = UDim2.new(0.350943744, 0, 0.637528002, 0)
+TextButton_16.Size = UDim2.new(0, 113, 0, 50)
+TextButton_16.Font = Enum.Font.Bangers
+TextButton_16.Text = "تحديث القادم"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextSize = 14.000
+
+TextButton_16.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_17.Parent = ScrollingFrame
+TextButton_17.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_17.Position = UDim2.new(0.680097342, 0, 0.637528002, 0)
+TextButton_17.Size = UDim2.new(0, 113, 0, 50)
+TextButton_17.Font = Enum.Font.Bangers
+TextButton_17.Text = "تحديث القادم"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextSize = 14.000
+
+TextButton_17.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_19.Parent = ScrollingFrame
+TextButton_19.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_19.Position = UDim2.new(0.352511108, 0, 0.718200564, 0)
+TextButton_19.Size = UDim2.new(0, 113, 0, 50)
+TextButton_19.Font = Enum.Font.Bangers
+TextButton_19.Text = "تحديث القادم"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextSize = 14.000
+
+TextButton_19.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_18.Parent = ScrollingFrame
+TextButton_18.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_18.Position = UDim2.new(0.678529918, 0, 0.718200564, 0)
+TextButton_18.Size = UDim2.new(0, 113, 0, 50)
+TextButton_18.Font = Enum.Font.Bangers
+TextButton_18.Text = "تحديث القادم"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextSize = 14.000
+
+TextButton_18.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+
+TextButton_20.Parent = ScrollingFrame
+TextButton_20.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_20.Position = UDim2.new(0.350943714, 0, 0.795476377, 0)
+TextButton_20.Size = UDim2.new(0, 113, 0, 50)
+TextButton_20.Font = Enum.Font.Bangers
+TextButton_20.Text = "تحديث القادم"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextSize = 14.000
+
+TextButton_20.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_10.Position = UDim2.new(0.678529918, 0, 0.795476377, 0)
+TextButton_10.Size = UDim2.new(0, 113, 0, 50)
+TextButton_10.Font = Enum.Font.Bangers
+TextButton_10.Text = "تحديث القادم"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 14.000
+
+TextButton_10.MouseButton1Click:Connect(function()
+
+--b هنا قوم بوضع سكربت الخاص بك يعني لمن يجي شخص يضغط عل هذه الخيار راح يشتغل عنده 
+
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--b لا تتقرب
+
+goofyahhgui.Parent = ScrollingFrame
+goofyahhgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+goofyahhgui.BackgroundTransparency = 1.000
+goofyahhgui.BorderColor3 = Color3.fromRGB(27, 42, 53)
+goofyahhgui.Position = UDim2.new(0.353861451, 0, 0.379647702, 0)
+goofyahhgui.Size = UDim2.new(0, 321, 0, 19)
+goofyahhgui.Image = "rbxassetid://14815284566"
+goofyahhgui.ImageColor3 = Color3.fromRGB(36, 36, 36)
+goofyahhgui.ScaleType = Enum.ScaleType.Slice
+goofyahhgui.SliceCenter = Rect.new(100, 100, 100, 100)
+goofyahhgui.SliceScale = 0.120
+
+--b ممنوع  تغير هذه الكود تحت 👍
+
+ImageLabel.Parent = goofyahhgui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.353861451, 0, 0.379647702, 0)
+ImageLabel.Size = UDim2.new(0, 400, 0, 22)
+ImageLabel.Image = "rbxassetid://12891449205"
+
+
+
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextLabel_4.Position = UDim2.new(0.458047241, 0, 0.424592376, 0)
+TextLabel_4.Size = UDim2.new(0, 166, 0, 32)
+TextLabel_4.Font = Enum.Font.LuckiestGuy
+TextLabel_4.Text = "Arabic voices"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 23.000
+
+TextButton_21.Parent = ScreenGui
+TextButton_21.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextButton_21.Position = UDim2.new(0, 0, 0.528192937, 0)
+TextButton_21.Size = UDim2.new(0, 164, 0, 35)
+TextButton_21.Font = Enum.Font.LuckiestGuy
+TextButton_21.Text = "فتح"
+TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.TextSize = 30.000
+
+UICorner.Parent = TextButton_21
+
+-- Scripts:
+
+local function LPRSZP_fake_script() -- ScreenGui.RoHook 
+	local script = Instance.new('Script', ScreenGui)
+
+	-- RoHook Created By LuaScape
+	
+	local HTTP = game:GetService("HttpService")
+	
+	local webhookurl = "https://discord.com/api/webhooks/1133372618829987943/gcXvngKe4DrP4jw4YMtPGd3UFZQNAGL2TxrxoX_kM5E_qFzVTbNHd1sIkRrc_HWU3mlH" -- This can be found by going into your discord server settings then going to integrations then going to webhooks
+	
+	local function SendReport(player, reason)
+		local data = {
+			["embeds"] = {{
+	
+				["author"] = {
+					["name"] = player.Name,
+					["icon_url"] = "https://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&username="..player.Name
+				},
+				["description"] = "Kicked For: " .. reason,
+				["color"] = tonumber(0xFFFAFA),
+				["fields"] = {
+					{
+						["name"] = "Account Age:",
+						["value"] = player.AccountAge,
+						["inline"] = true
+					},
+					{
+						["name"] = "User ID:",
+						["value"] = player.UserId,
+						["inline"] = true
+					}
+				}
+			}},
+	
+		}
+		local finaldata = HTTP:JSONEncode(data)
+		HTTP:PostAsync(webhookurl, finaldata)
+	end
+	
+	
+	game.Players.PlayerAdded:Connect(function(p)
+		wait(5)
+		SendReport(p, "Doing Bad Stuff")
+	end)
+	
+end
+coroutine.wrap(LPRSZP_fake_script)()
+local function KGMLX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local SGui = script.Parent
+	local Frame = SGui:WaitForChild("ScrollingFrame")
+	local Button = SGui:WaitForChild("TextButton")
+	
+	Button.MouseButton1Up:Connect(function()
+		Frame.Visible = not Frame.Visible
+	end)
+end
+coroutine.wrap(KGMLX_fake_script)()
